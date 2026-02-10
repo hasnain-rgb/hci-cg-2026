@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Week 2 – Norman’s Action Cycle: Who Paid App</title>
+  <style>
+    body { font-family: Arial, sans-serif; font-size: 16px; }
+    header, footer { background-color: #f2f2f2; }
+    h1, h2, h3 { color: #333; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Week 2: Norman’s Action Cycle – “Who Paid?” App</h1>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="cv.html">CV</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="analysis.html">Interaction Analysis</a></li>
+      <li><a href="norman2klm.html" aria-current="page">Norman–GOMS–KLM</a></li>
+      <li><a href="assignment01.html">Lab 01 Rules</a></li>
+      <li><a href="week1.html">Week 1</a></li>
+      <li><a href="week2.html">Week 2</a></li>
+      <li><a href="week3.html" aria-current="page">Week 3</a></li>
+      <li><a href="week4.html">Week 4</a></li>
+      <li><a href="html-errors.html">HTML Errors</a></li>
+
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <section>
+    <h2>Context: The “Who Paid?” App</h2>
+    <p>
+      The “Who Paid?” app is a group expense application where users want to check
+      who paid last or record a payment. A common usability problem is that users
+      cannot clearly tell who made the most recent payment or what the current
+      system state is.
+    </p>
+  </section>
+
+  <section>
+    <h2>Applying Norman’s 7 Stages of Action</h2>
+
+    <article>
+      <h3>1. Form Goal</h3>
+      <p><strong>User goal:</strong> “I want to check who paid for the last expense.”</p>
+      <p>The user has a clear goal to find payment information.</p>
+    </article>
+
+    <article>
+      <h3>2. Form Intention</h3>
+      <p><strong>Intention:</strong> “I will open the app and look for the last transaction.”</p>
+      <p>The user decides to use the app to achieve the goal.</p>
+    </article>
+
+    <article>
+      <h3>3. Specify Action</h3>
+      <p><strong>Action plan:</strong> “I will tap the ‘Recent Payments’ or ‘History’ section.”</p>
+      <p>The user chooses which interface action to perform.</p>
+    </article>
+
+    <article>
+      <h3>4. Execute Action</h3>
+      <p><strong>Execution:</strong> The user taps buttons or navigates through menus.</p>
+      <p>If labels or icons are unclear, the user may not know what to tap.</p>
+    </article>
+
+    <article>
+      <h3>5. Perceive System State</h3>
+      <p><strong>Perception:</strong> The app displays a list of transactions.</p>
+      <p>The user sees names, amounts, and timestamps.</p>
+    </article>
+
+    <article>
+      <h3>6. Interpret System State</h3>
+      <p><strong>Interpretation:</strong> “This entry shows Ali paid the bill yesterday.”</p>
+      <p>The user tries to understand what the system feedback means.</p>
+    </article>
+
+    <article>
+      <h3>7. Evaluate Outcome</h3>
+      <p><strong>Evaluation:</strong> “Yes, this answers my question about who paid last.”</p>
+      <p>The user checks whether the goal has been achieved.</p>
+    </article>
+
+    <p><em>Reference: Dix et al., Human–Computer Interaction, Chapter 9</em></p>
+  </section>
+
+  <section>
+    <h2>Gulfs of Execution and Evaluation in the “Who Paid?” App</h2>
+
+    <article>
+      <h3>Gulf of Execution</h3>
+      <p>
+        The Gulf of Execution is the gap between what the user wants to do and
+        what actions the interface makes visible or easy to perform.
+      </p>
+      <ul>
+        <li>Buttons may have unclear labels (e.g., “Log”, “Update”).</li>
+        <li>Users may not know where to tap to see the last payer.</li>
+        <li>Icons may not clearly represent their function.</li>
+      </ul>
+      <p>
+        <strong>Result:</strong> The user has the goal but does not know how to
+        perform the correct action.
+      </p>
+    </article>
+
+    <article>
+      <h3>Gulf of Evaluation</h3>
+      <p>
+        The Gulf of Evaluation is the gap between what the system shows and
+        how easily the user can understand the system’s state.
+      </p>
+      <ul>
+        <li>The app shows a list but does not clearly highlight who paid last.</li>
+        <li>No explicit message such as “Last paid by ___”.</li>
+        <li>Timestamps or names may be unclear.</li>
+      </ul>
+      <p>
+        <strong>Result:</strong> The user performs the action but cannot easily
+        interpret the outcome.
+      </p>
+    </article>
+
+    <p><em>Reference: Dix et al., Human–Computer Interaction, Chapter 9</em></p>
+  </section>
+
+  <section>
+    <h2>Design Improvements (Optional)</h2>
+    <ul>
+      <li>Add a clear label: <strong>“Last Paid By: Ahmed”</strong></li>
+      <li>Highlight the most recent transaction</li>
+      <li>Use icons with text labels (e.g., “Recent Payments”)</li>
+      <li>Provide confirmation feedback (“Payment recorded successfully”)</li>
+    </ul>
+  </section>
+
+</main>
+
+<footer>
+  <p>Lab & Assignment 01 – HCI-CG | Week 2 Content</p>
+</footer>
+
+</body>
+</html>

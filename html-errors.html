@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML Errors – Lab 01</title>
+  <style>
+    body { font-family: Arial, sans-serif; font-size: 16px; }
+    header, footer { background-color: #f2f2f2; }
+    h1, h2, h3 { color: #333; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>10 Common HTML Errors (Q&A)</h1>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="analysis.html">Interaction Analysis</a></li>
+      <li><a href="norman2klm.html">Norman–GOMS–KLM</a></li>
+      <li><a href="week1.html">Week 1</a></li>
+      <li><a href="week2.html">Week 2</a></li>
+      <li><a href="week3.html">Week 3</a></li>
+      <li><a href="week4.html">Week 4</a></li>
+      <li><a href="html-errors.html" aria-current="page">HTML Errors</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section>
+    <h2>Questions and Answers</h2>
+
+    <article>
+      <h3>Q1: Why is using multiple &lt;h1&gt; tags a mistake?</h3>
+      <p><strong>Answer:</strong> Each page should have only one &lt;h1&gt; to define the main topic. Multiple &lt;h1&gt; tags confuse screen readers.</p>
+    </article>
+
+    <article>
+      <h3>Q2: Why should every &lt;img&gt; have an alt attribute?</h3>
+      <p><strong>Answer:</strong> The alt text provides a description for screen readers and when images fail to load.</p>
+    </article>
+
+    <article>
+      <h3>Q3: What is wrong with using &lt;div&gt; everywhere?</h3>
+      <p><strong>Answer:</strong> &lt;div&gt; has no meaning. Semantic tags like &lt;header&gt;, &lt;nav&gt;, and &lt;section&gt; improve accessibility.</p>
+    </article>
+
+    <article>
+      <h3>Q4: Why is “click here” bad link text?</h3>
+      <p><strong>Answer:</strong> Links should describe the destination so they make sense when read alone.</p>
+    </article>
+
+    <article>
+      <h3>Q5: Why must forms have labels?</h3>
+      <p><strong>Answer:</strong> Labels help users understand what to enter and are required for accessibility.</p>
+    </article>
+
+    <article>
+      <h3>Q6: Why should tables not be used for layout?</h3>
+      <p><strong>Answer:</strong> Tables are only for data. Using them for layout harms screen-reader navigation.</p>
+    </article>
+
+    <article>
+      <h3>Q7: What is wrong with skipping heading levels?</h3>
+      <p><strong>Answer:</strong> Jumping from &lt;h1&gt; to &lt;h3&gt; breaks the content hierarchy.</p>
+    </article>
+
+    <article>
+      <h3>Q8: Why must navigation be inside a list?</h3>
+      <p><strong>Answer:</strong> Screen readers expect menus to be structured with &lt;ul&gt; and &lt;li&gt;.</p>
+    </article>
+
+    <article>
+      <h3>Q9: Why should the &lt;html&gt; tag have a lang attribute?</h3>
+      <p><strong>Answer:</strong> It tells screen readers which language to use for pronunciation.</p>
+    </article>
+
+    <article>
+      <h3>Q10: Why must tags be closed properly?</h3>
+      <p><strong>Answer:</strong> Unclosed tags break the document structure and can cause display issues.</p>
+    </article>
+
+  </section>
+</main>
+
+<footer>
+  <p>Lab & Assignment 01 – HCI-CG</p>
+</footer>
+
+</body>
+</html>
